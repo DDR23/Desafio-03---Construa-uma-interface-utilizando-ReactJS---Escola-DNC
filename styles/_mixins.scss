@@ -1,0 +1,15 @@
+@mixin flex-position(
+    $display,
+    $flex-direction,
+    $margin,
+    $justify-content,
+    $text-align,
+    $align-items
+){
+    display: $display;
+    flex-direction: $flex-direction;
+    margin: $margin;
+    justify-content: $justify-content;
+    text-align: $text-align;
+    align-items: $align-items;
+}
