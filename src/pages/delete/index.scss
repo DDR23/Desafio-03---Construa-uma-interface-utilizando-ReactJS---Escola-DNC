@@ -1,0 +1,22 @@
+@use '../styles/mixins' as *;
+@use '../styles/variables' as *;
+
+.delete{
+    @include flex-position(
+        flex,
+        column,
+        auto,
+        center,
+        center,
+        center
+    );
+    width: 100vw;
+    height: 100vh;
+    background-color: $cor-bg-preto;
+    
+    &__titulo{
+        background-color: $cor-bg-azul;
+        color: $cor-font-branco;
+        margin: .4rem;
+    }
+}
