@@ -1,0 +1,39 @@
+@use '../styles/mixins' as *;
+@use '../styles/variables' as *;
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    background-color: $cor-bg-preto;
+    
+    &__header{
+        @include flex-position(
+            flex,
+            column,
+            auto,
+            center,
+            center,
+            center
+        );
+        height: 22vh;
+
+        h1{
+            background-color: $cor-bg-azul;
+            color: $cor-font-branco;
+            margin: .4rem;
+        }
+    }
+}
+
+.errorpage{
+    @include flex-position(
+            flex,
+            column,
+            auto,
+            center,
+            center,
+            center
+        );
+        height: 92vh;
+        color: $cor-bg-azul;
+}

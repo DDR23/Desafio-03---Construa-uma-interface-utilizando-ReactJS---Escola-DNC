@@ -1,0 +1,45 @@
+@use '../styles/mixins' as *;
+@use '../styles/variables' as *;
+
+.tabela {
+    @include flex-position(
+        flex,
+        column,
+        auto,
+        center,
+        center,
+        center
+    );
+    background-color: aliceblue;
+
+    &__content{
+        width: 50vw;
+        background-color: aqua;
+
+    }
+
+    tr{
+        th:first-child {
+            text-align: left;
+        }
+        
+        th:last-child {
+            text-align: right;
+        }
+        
+        td:first-child {
+            text-align: left;
+        }
+    
+        td:last-child {
+            text-align: right;
+        }
+    }
+
+    &__newitem{
+        width: 50vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
