@@ -1,0 +1,15 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.errorpage{
+  @include flex-position(
+    flex,
+    column,
+    auto,
+    center,
+    center,
+    center
+  );
+  height: 92vh;
+  color: $cor-bg-azul;
+}

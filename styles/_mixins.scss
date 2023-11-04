@@ -1,3 +1,5 @@
+//FLEX
+
 @mixin flex-position(
     $display,
     $flex-direction,
@@ -12,4 +14,14 @@
     justify-content: $justify-content;
     text-align: $text-align;
     align-items: $align-items;
+}
+
+@mixin icon-model{
+    margin: .8rem;
+
+    &:hover{
+        cursor: pointer;
+        transition: .1s ease;
+        transform: scale(1.2);
+    }
 }

@@ -10,36 +10,68 @@
         center,
         center
     );
-    background-color: aliceblue;
+    color: $cor-font-branco;
 
     &__content{
         width: 50vw;
-        background-color: aqua;
-
+        th{
+            color: $cor-font-branco;
+            background-color: $cor-bg-azul;
+        }
     }
-
+    
+    
     tr{
+        
         th:first-child {
-            text-align: left;
+            width: 65%;
+            text-align: center;
+            padding: .4rem;
         }
         
         th:last-child {
-            text-align: right;
+            text-align: center;
+            padding: .4rem;
         }
         
         td:first-child {
             text-align: left;
+            padding-left: 1rem;
+            P{
+                padding: .4rem;
+            }
         }
-    
+        
         td:last-child {
             text-align: right;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 1rem;
+            svg{
+                @include icon-model;
+            }
         }
     }
-
+    
+    
     &__newitem{
         width: 50vw;
+        padding: 1rem .4rem;
         display: flex;
         justify-content: space-between;
-    }
 
+        input{
+            outline: none;
+            padding: .6rem;
+            font-style: italic;
+            background-color: transparent;
+            border: none;
+            color: $cor-font-branco;
+            
+        }
+
+        svg{
+            @include icon-model;
+        }
+    }
 }

@@ -1,6 +1,9 @@
 import './index.scss'
+import { FiEdit, FiTrash, FiPlusSquare } from "react-icons/fi";
 
-export default function Tabela() {
+export default function Tabela({ data, tarefa }) {
+
+    console.log(data)
     return (
         <>
             <main className="tabela">
@@ -13,22 +16,26 @@ export default function Tabela() {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>
-                                ola
-                            </td>
-                            <td>
-                                dasj
-                            </td>
-                            <td>
-                                gjbv
-                            </td>
-                        </tr>
+                        {data.map((item) => (
+                            <tr key={item.id}>
+                                <td>
+                                    <p>{item.title}</p>
+                                </td>
+                                <td>
+                                    <input type='checkbox' name="estado" id="estado" />
+                                </td>
+                                <td>
+                                    <FiEdit size={18}/>
+                                    <FiTrash size={18}/>
+                                </td>
+                            </tr>
+
+                        ))}
                     </tbody>
                 </table>
                 <div className="tabela__newitem">
-                    <p>novo iten</p>
-                    <p>+</p>
+                    <input type="text" placeholder='Nova tarefa...' />
+                    <FiPlusSquare size={18}/>
                 </div>
             </main>
         </>

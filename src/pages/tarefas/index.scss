@@ -1,0 +1,19 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+
+.header{
+  @include flex-position(
+      flex,
+      column,
+      auto,
+      center,
+      center,
+      center
+  );
+  height: 22vh;
+  h1{
+    color: $cor-font-branco;
+    margin-top: 2rem;
+  }
+}

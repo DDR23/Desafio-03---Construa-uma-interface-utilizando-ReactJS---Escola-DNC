@@ -5,7 +5,9 @@ import '../styles/globals.scss'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Tarefas from './pages/tarefas/Tarefas.jsx'
 import Organizacao from './pages/organizacao/Organizacao.jsx'
-import ErrorPage from './errorPage.jsx'
+import ErrorPage from './pages/errorPage/errorPage.jsx'
+import { DataBase } from './mockup/DataBase.js'
+
 
 const router = createBrowserRouter([
   {
@@ -15,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Tarefas/>,
+        element: <Tarefas data={ DataBase }/>,
       },
       {
         path: "/organizacao",
