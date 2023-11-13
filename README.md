@@ -25,14 +25,14 @@
 
 ## Screenshots
 Rota "/" principal 
-![Tarefas](https://i.ibb.co/K9zQVhm/Captura-de-tela-2023-11-13-110144.png)
+![Tarefas](https://i.ibb.co/RSdtPpT/Captura-de-tela-2023-11-13-140827.png)
 ---
 Modal editar Tarefas
-![Tarefas/editar](https://i.ibb.co/HX7QPQN/Captura-de-tela-2023-11-13-110431.png)
+![Tarefas/editar](https://i.ibb.co/V2SX9tG/Captura-de-tela-2023-11-13-140835.png)
 ---
 Modal apagar tarefa
-![Tarefas/apagar](https://i.ibb.co/Pt9CcNN/Captura-de-tela-2023-11-13-110440.png)
+![Tarefas/apagar](https://i.ibb.co/N633BQ0/Captura-de-tela-2023-11-13-140844.png)
 ---
 Modal adicionar nova tarefa
-![Tarefas/adicionar](https://i.ibb.co/L0wZymd/Captura-de-tela-2023-11-13-110447.png)
+![Tarefas/adicionar](https://i.ibb.co/thN8G7K/Captura-de-tela-2023-11-13-140851.png)
 ---
