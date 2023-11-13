@@ -1,6 +1,10 @@
 # Desafio-03---Construa-uma-interface-utilizando-ReactJS---Escola-DNC
 🎯 Etapas de Desenvolvimento
 
+### Site: https://desafio-03-construa-uma-interface-util-andres-projects-3acd86a9.vercel.app/
+
+---
+
 ## ETAPA-01 - Configure o react.js
 - Iniciar aplicação com Vite: npm create vite@latest my-app -- --template react;
 - Instalar dependências: npm install
@@ -19,4 +23,19 @@
 
 ---
 
-### Site: 
+## Screenshots
+Rota "/" principal 
+![Tarefas](https://drive.google.com/drive/u/1/folders/1F9vkMNubWQ_SMGaUlmL3lLqwOyllDbM8)
+---
+Modal editar Tarefas
+![Tarefas/editar](https://drive.google.com/file/d/1NyVhW9PFxoExcAHV6yEWBgfuIOKZ5Vy4/view?usp=sharing)
+---
+Modal apagar tarefa
+![Tarefas/apagar](https://drive.google.com/file/d/174j0Neardqqin-u0TIQhE4kk0PQ157ft/view?usp=sharing)
+---
+Modal adicionar nova tarefa
+![Tarefas/adicionar](https://drive.google.com/file/d/1MxW6NQfX03NggUElwqRlk-Zpf9haTGAl/view?usp=sharing)
+---
+Rota "/organizacao"
+![Tarefas](https://drive.google.com/file/d/1h3VsB-0AoAHya8ZehNCOrGGfT5iFHsLK/view?usp=sharing)
+---
