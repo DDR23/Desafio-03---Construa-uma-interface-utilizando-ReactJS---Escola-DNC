@@ -11,4 +11,14 @@
     center
   );
   height: 92vh;
+
+  img{
+    width: 200px;
+  }
+
+  p{
+    color: $cor-bg-branco;
+    padding: 2rem;
+    font-size: 30px;
+  }
 }

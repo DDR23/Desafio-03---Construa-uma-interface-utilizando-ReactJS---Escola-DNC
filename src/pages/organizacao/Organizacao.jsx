@@ -4,7 +4,8 @@ export default function organizacao() {
     return (
         <>
             <div className="organizacao">
-                <img src="/assets/building.gif" alt="" />
+                <img src="/assets/build.png" alt="" />
+                <p>Estamos trabalhando aqui..</p>
             </div>
         </>
     )
