@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         element: <Tarefas data={ DataBase }/>,
       },
       {
-        path: "/organizacao",
+        path: "organizacao",
         element: <Organization/>,
       },
     ]
