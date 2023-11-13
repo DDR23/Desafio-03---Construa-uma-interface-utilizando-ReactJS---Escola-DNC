@@ -4,11 +4,9 @@ export default function Navbar() {
     return (
         <>
             <div className="navbar">
-                <a href="/organizacao">
-                    <div className="navbar__btn">
-                        Organização
-                    </div>
-                </a>
+                <div className="navbar__btn disabled">
+                    Organização
+                </div>
                 <a href="/">
                     <div className="navbar__btn show">
                         Tarefas

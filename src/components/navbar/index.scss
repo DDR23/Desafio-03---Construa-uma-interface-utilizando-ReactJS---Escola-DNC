@@ -24,4 +24,8 @@
         color: $cor-bg-azul;
         background-color: $cor-bg-branco;
     }
+
+    .disabled{
+        cursor: not-allowed;
+    }
 }
