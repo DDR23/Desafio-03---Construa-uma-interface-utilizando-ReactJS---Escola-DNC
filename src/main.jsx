@@ -4,9 +4,9 @@ import App from './App.jsx'
 import '../styles/globals.scss'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Tarefas from './pages/tarefas/Tarefas.jsx'
-import Organizacao from './pages/organizacao/Organizacao.jsx'
 import ErrorPage from './pages/errorPage/errorPage.jsx'
 import { DataBase } from './mockup/DataBase.js'
+import Organization from './pages/organizacao/Organization.jsx'
 
 
 const router = createBrowserRouter([
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/organizacao",
-        element: <Organizacao/>,
+        element: <Organization/>,
       },
     ]
   },
