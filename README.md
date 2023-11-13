@@ -25,17 +25,17 @@
 
 ## Screenshots
 Rota "/" principal 
-![Tarefas](https://drive.google.com/drive/u/1/folders/1F9vkMNubWQ_SMGaUlmL3lLqwOyllDbM8)
+![Tarefas](https://i.ibb.co/K9zQVhm/Captura-de-tela-2023-11-13-110144.png)
 ---
 Modal editar Tarefas
-![Tarefas/editar](https://drive.google.com/file/d/1NyVhW9PFxoExcAHV6yEWBgfuIOKZ5Vy4/view?usp=sharing)
+![Tarefas/editar](https://i.ibb.co/HX7QPQN/Captura-de-tela-2023-11-13-110431.png)
 ---
 Modal apagar tarefa
-![Tarefas/apagar](https://drive.google.com/file/d/174j0Neardqqin-u0TIQhE4kk0PQ157ft/view?usp=sharing)
+![Tarefas/apagar](https://i.ibb.co/Pt9CcNN/Captura-de-tela-2023-11-13-110440.png)
 ---
 Modal adicionar nova tarefa
-![Tarefas/adicionar](https://drive.google.com/file/d/1MxW6NQfX03NggUElwqRlk-Zpf9haTGAl/view?usp=sharing)
+![Tarefas/adicionar](https://i.ibb.co/L0wZymd/Captura-de-tela-2023-11-13-110447.png)
 ---
 Rota "/organizacao"
-![Tarefas](https://drive.google.com/file/d/1h3VsB-0AoAHya8ZehNCOrGGfT5iFHsLK/view?usp=sharing)
+![Tarefas](https://i.ibb.co/5hZJR22/Captura-de-tela-2023-11-13-110159.png)
 ---
