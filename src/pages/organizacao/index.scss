@@ -1,0 +1,14 @@
+@use '../../../styles/mixins' as *;
+@use '../../../styles/variables' as *;
+
+.organizacao{
+  @include flex-position(
+    flex,
+    column,
+    auto,
+    center,
+    center,
+    center
+  );
+  height: 92vh;
+}
