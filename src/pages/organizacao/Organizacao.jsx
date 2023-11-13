@@ -1,6 +1,6 @@
 import './index.scss'
 
-export default function organizacao() {
+export default function Organizacao() {
     return (
         <>
             <div className="organizacao">
