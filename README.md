@@ -36,6 +36,3 @@ Modal apagar tarefa
 Modal adicionar nova tarefa
 ![Tarefas/adicionar](https://i.ibb.co/L0wZymd/Captura-de-tela-2023-11-13-110447.png)
 ---
-Rota "/organizacao"
-![Tarefas](https://i.ibb.co/5hZJR22/Captura-de-tela-2023-11-13-110159.png)
----
