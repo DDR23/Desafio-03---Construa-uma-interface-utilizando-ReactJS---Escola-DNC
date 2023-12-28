@@ -44,7 +44,7 @@ export default function Tabela({ data, tarefa }) {
                     </tbody>
                 </table>
                 <div className="tabela__newitem">
-                    <input type="text" placeholder='Nova tarefa...' onChange={(e) => setNovaTarefa(e.target.value)}/>
+                    <input type="text" placeholder='Adicione uma nova tarefa' onChange={(e) => setNovaTarefa(e.target.value)}/>
                     <FiPlusSquare onClick={() => setModalInfo({ isOpen: true, title: 'Deseja adicionar  esse novo item?', description: novaTarefa })} size={18} />
                     {
                         modalInfo.isOpen &&

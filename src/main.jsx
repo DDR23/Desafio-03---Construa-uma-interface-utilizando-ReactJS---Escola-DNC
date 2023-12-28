@@ -7,6 +7,7 @@ import Tarefas from './pages/tarefas/Tarefas.jsx'
 import ErrorPage from './pages/errorPage/errorPage.jsx'
 import { DataBase } from './mockup/DataBase.js'
 import Organization from './pages/organizacao/Organization.jsx'
+import Home from './pages/home/home.jsx'
 
 
 const router = createBrowserRouter([
@@ -16,11 +17,15 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage/>,
     children: [
       {
-        path: "/",
+        path: '/',
+        element: <Home/>
+      },
+      {
+        path: "/tarefas",
         element: <Tarefas data={ DataBase }/>,
       },
       {
-        path: "organizacao",
+        path: "/organizacao",
         element: <Organization/>,
       }
     ]

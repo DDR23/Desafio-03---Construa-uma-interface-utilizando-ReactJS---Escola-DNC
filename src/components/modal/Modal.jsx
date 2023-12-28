@@ -11,7 +11,7 @@ export default function Modal({ isOpen, isClose, titulo, descricao } ) {
             <p>{descricao}</p>
             <div className="modal__content--btnYN">
               <button onClick={() => isClose()} className='btn'>não</button>
-              <button disabled onClick={() => isClose()} className='btnDisabled'>sim</button>
+              <button disabled onClick={() => isClose()} className='btn btnDisabled'>sim</button>
             </div>
           </div>
         </div>

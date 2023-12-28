@@ -1,6 +1,15 @@
 @use '../../../styles/mixins' as *;
 @use '../../../styles/variables' as *;
 
+@keyframes toggle{
+  0%{
+    color: $cor-bg-branco;
+  }
+  100%{
+    color: transparent
+  }
+}
+
 .organizacao{
   @include flex-position(
     flex,
@@ -13,12 +22,16 @@
   height: 92vh;
 
   img{
-    width: 200px;
+    width: 600px;
   }
 
   p{
     color: $cor-bg-branco;
     padding: 2rem;
     font-size: 30px;
+  }
+
+  span{
+    animation: toggle .5s infinite alternate;
   }
 }

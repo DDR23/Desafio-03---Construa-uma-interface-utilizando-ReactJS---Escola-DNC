@@ -1,17 +1,37 @@
 import './index.scss'
+import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
+
+    const btns = [
+        {
+            name: 'Home',
+            link: '/'
+        },
+        {
+            name: 'Tarefas',
+            link: '/tarefas'
+
+        },
+        {
+            name: 'Organização',
+            link: '/organizacao'
+        }
+    ]
+
     return (
         <>
             <div className="navbar">
-                <div className="navbar__btn disabled">
-                    Organização
-                </div>
-                <a href="/">
-                    <div className="navbar__btn show">
-                        Tarefas
-                    </div>
-                </a>
+                {btns.map((btn, index) => (
+                    <NavLink
+                    key={index}
+                    to={btn.link}
+                    className= 'navbar__btn'
+                    activeClassName= 'active'
+                    >
+                        {btn.name}
+                    </NavLink>
+                ))}
             </div>
         </>
     )

@@ -3,12 +3,14 @@
 
 
 .modal {
-  @include flex-position(flex,
+  @include flex-position(
+    flex,
     column,
     auto,
     center,
     center,
-    center);
+    center
+  );
   position: fixed;
   top: 0;
   left: 0;
@@ -17,14 +19,16 @@
   background-color: $cor-bg-shadow-preto;
 
   &__content {
-    @include flex-position(flex,
+    @include flex-position(
+      flex,
       column,
       auto,
       center,
       center,
-      center);
-    width: 30vw;
-    height: 17vw;
+      center
+    );
+    width: auto;
+    height: auto;
     background-color: $cor-bg-branco;
     border-radius: 15px;
     color: $cor-bg-preto;
@@ -38,10 +42,7 @@
     }
 
     &--btnYN{
-      margin: 2rem;
-      width: 20vw;
-      display: flex;
-      justify-content: space-between;
+      margin-bottom: 1.5rem
     }
   }
 
@@ -49,6 +50,7 @@
   .btn{
     @include btn-model;
     transition-duration: .2s;
+    margin: .5rem;
     
     &:hover{
       transform: translateY(-.1rem);
@@ -60,6 +62,10 @@
     @include btn-model;
     background-color: $cor-bg-branco;
     cursor: not-allowed;
+
+    &:hover{
+      transform: none;
+    }
   }
 
 }
