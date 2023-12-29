@@ -39,42 +39,48 @@ Na última etapa deste desafio, é hora de documentar o projeto. Isso inclui adi
 ---
 
 ## Screenshots Desktop
-Rota "/" Home
+#### Rota "/" Home
 ![Home](https://i.ibb.co/mG8bbLZ/Captura-de-tela-2023-12-29-000045.png)
 ---
-Rota "/tarefas"
+#### Rota "/tarefas"
 ![Tarefas](https://i.ibb.co/bd7tJWD/Captura-de-tela-2023-12-29-000059.png)
 ---
-Modal adicionar tarefa
+#### Modal adicionar tarefa
 ![Tarefas/adicionar](https://i.ibb.co/Qrrns2f/Captura-de-tela-2023-12-29-000337.png)
 ---
-Modal editar tarefa
+#### Modal editar tarefa
 ![Tarefas/editar](https://i.ibb.co/23KKqJR/Captura-de-tela-2023-12-29-000313.png)
 ---
-Modal editar tarefa
+#### Modal editar tarefa
 ![Tarefas/editar](https://i.ibb.co/nj6yJNQ/Captura-de-tela-2023-12-29-000140.png)
 ---
-Rota "/organizacao"
+#### Rota "/organizacao"
 ![Organizaçâo](https://i.ibb.co/xL2cVvr/Captura-de-tela-2023-12-29-000114.png)
 ---
 ---
 
 ## Screenshots Mobile
-Rota "/" Home
+#### Rota "/" Home
 ![Home](https://i.ibb.co/BgvKRjP/Captura-de-tela-2023-12-29-000435.png)
 ---
-Rota "/tarefas"
+#### Rota "/tarefas"
 ![Tarefas](https://i.ibb.co/sFPVYBv/Captura-de-tela-2023-12-29-000443.png)
 ---
-Modal tarefas
+#### Modal tarefas
 ![Tarefas/modal](https://i.ibb.co/q1GgykX/Captura-de-tela-2023-12-29-000505.png)
 ---
-Rota "/organizacao"
+#### Rota "/organizacao"
 ![Organizaçâo](https://i.ibb.co/wCBMhmt/Captura-de-tela-2023-12-29-000449.png)
 ---
 
 ## Funcionalidades
 - Esse projeto simula uma lista de tarefas, os botões de adicionar, editar e apagar e os modais são meramente visuais, não executam funções
+
+## Mudanças
+- mudança nas rota principal: conteúdo que era mostrado na rota "/" passa a ser mostrado na rota "/tarefas" agora
+- adição de 2 novas rotas: "/" e "/oraganizacao"
+- alterações no layout: cores, tamanhos e formatos
+- adição de css responsivo para multiplatafomas
 
 ## Técnologias usadas
 - Vite.js
