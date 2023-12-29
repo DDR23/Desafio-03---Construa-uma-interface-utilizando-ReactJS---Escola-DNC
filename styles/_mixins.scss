@@ -1,4 +1,3 @@
-
 @use '../styles/variables' as *;
 
 //FLEX
@@ -19,8 +18,11 @@
     align-items: $align-items;
 }
 
+
+// MODELO PADRÃO DOS ICONES
+
 @mixin icon-model{
-    margin: .8rem;
+    margin: .6rem;
 
     &:hover{
         cursor: pointer;
@@ -29,12 +31,32 @@
     }
 }
 
+
+//MODELO PADRÃO DOS BOTÕES
+
 @mixin btn-model{
     padding: .6rem 4.5rem;
     border-radius: 10px;
     text-transform: uppercase;
     cursor: pointer;
-    background-color: $cor-bg-azul;
+    background-color: $cor-bg-azul;   
+}
 
+
+//VIEWPORTS
+
+@mixin viewport($breakpoints){
+    $devices:(
+        xs: 320px,
+        sm: 480px,
+        smd: 600px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+    );
+    $breakpoint: map-get($devices, $breakpoints);
     
+    @media(max-width: $breakpoint){
+        @content
+    }
 }

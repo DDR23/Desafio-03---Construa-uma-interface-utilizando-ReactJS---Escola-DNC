@@ -6,7 +6,7 @@ export default function Organization() {
     <>
       <div className="organizacao">
         <img src="/assets/inDevelopment.png" alt="" />
-        <p>Estamos trabalhando aqui..<span>.</span></p>
+        <h1>Estamos trabalhando aqui..<span>.</span></h1>
       </div>
     </>
   )

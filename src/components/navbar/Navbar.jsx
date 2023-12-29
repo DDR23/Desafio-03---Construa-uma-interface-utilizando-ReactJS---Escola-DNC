@@ -29,7 +29,7 @@ export default function Navbar() {
                     className= 'navbar__btn'
                     activeClassName= 'active'
                     >
-                        {btn.name}
+                        <p>{btn.name}</p>
                     </NavLink>
                 ))}
             </div>

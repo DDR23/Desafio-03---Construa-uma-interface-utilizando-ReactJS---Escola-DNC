@@ -22,16 +22,50 @@
   height: 92vh;
 
   img{
-    width: 600px;
+    width: 550px;
   }
 
-  p{
+  h1{
     color: $cor-bg-branco;
-    padding: 2rem;
-    font-size: 30px;
+    padding: 2rem 0;
   }
 
   span{
     animation: toggle .5s infinite alternate;
   }
+}
+
+@include viewport(xl){
+  .organizacao img{
+    width: 400px;
+  }
+}
+
+@include viewport(md){
+  .organizacao{
+    img{
+      width: 350px;
+    }
+
+    h1{
+      margin: 0 .5rem;
+      font-size: 1.5rem;
+    }
+  } 
+}
+
+@include viewport(sm){
+  .organizacao{
+    img{
+      width: 86vw;
+    }
+  } 
+}
+
+@include viewport(xs){
+  .organizacao{
+    h1{
+      font-size: 1.2rem;
+    }
+  } 
 }

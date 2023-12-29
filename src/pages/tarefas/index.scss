@@ -11,9 +11,25 @@
       center,
       center
   );
-  height: 22vh;
+  height: auto;
   h1{
     color: $cor-font-branco;
-    margin-top: 2rem;
+    margin: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@include viewport(md){
+  .header h1{
+    font-size: 1.5rem;
+    margin: 2rem 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@include viewport(xs){
+  .header h1{
+    font-size: 1.2rem;
+    margin: 1rem .5rem .5rem;
   }
 }

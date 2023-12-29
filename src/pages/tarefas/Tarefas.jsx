@@ -5,7 +5,7 @@ export default function Tarefas({ data }) {
     return (
         <>
             <main className="header">
-                <h1 className="header__titutlo">Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
+                <h1 className="header__titutlo">Otimize seu tempo com o nosso Planejador Diário.</h1>
             </main>
             <Tabela data={ data }/>
         </>

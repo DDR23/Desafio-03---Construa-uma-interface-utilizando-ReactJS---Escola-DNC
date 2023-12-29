@@ -17,3 +17,57 @@
     width: 700px;
   }
 }
+
+@include viewport(xl){
+  .home img{
+    width: 500px;
+  }
+}
+
+@include viewport(md){
+  .home{
+    img{
+      width: 400px;
+    }
+
+    h1{
+      margin: 0 .5rem;
+      font-size: 1.5rem;
+    }
+    
+    p{
+      margin: 0 .5rem;
+      font-size: .8rem;
+    }
+  }
+}
+
+@include viewport(sm){
+  .home{
+    img{
+      width: 96vw;
+    }
+
+    h1{
+      margin-top: .3rem;
+    }
+
+    p{
+      margin-top: .5rem;
+    }
+  }
+}
+
+@include viewport(xs){
+  .home{
+    h1{
+      font-size: 1.2rem;
+      margin-top: .3rem;
+    }
+
+    p{
+      margin-top: .5rem;
+      font-size: .67rem;
+    }
+  }
+}

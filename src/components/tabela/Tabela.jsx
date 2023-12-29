@@ -1,15 +1,12 @@
-import { useEffect, useState } from 'react';
-import Modal from '../modal/Modal';
 import './index.scss'
+import { useState } from 'react';
+import Modal from '../modal/Modal';
 import { FiEdit, FiTrash, FiPlusSquare } from "react-icons/fi";
 
-export default function Tabela({ data, tarefa }) {
+export default function Tabela({ data }) {
 
     const [modalInfo, setModalInfo] = useState({ isOpen: false, title: '', description: '' })
-    const [novaTarefa, setNovaTarefa] = useState('')
-
-    console.log(novaTarefa)
-    
+    const [novaTarefa, setNovaTarefa] = useState('')    
 
     return (
         <>
@@ -52,7 +49,6 @@ export default function Tabela({ data, tarefa }) {
                     }
                 </div>
             </main>
-
         </>
     )
 }

@@ -27,3 +27,19 @@
         background-color: $cor-bg-preto;
     }
 }
+
+@include viewport(md){
+    .navbar{
+        p{
+            font-size: .8rem;
+        }
+    }
+}
+
+@include viewport(xs){
+    .navbar{
+        p{
+            font-size: .67rem;
+        }
+    }
+}
