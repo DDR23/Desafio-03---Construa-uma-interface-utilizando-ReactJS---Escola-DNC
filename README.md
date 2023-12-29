@@ -1,5 +1,5 @@
 ### IMPORTANTE
-Este repositório foi criado e desenvvolvido para 2 desafios da Escola DNC, listados abaixo:
+Este repositório foi criado e desenvolvido para 2 desafios da Escola DNC, listados abaixo:
 
 - Desafio-03---Construa-uma-interface-utilizando-ReactJS---Escola-DNC
 - Desafio-04---Crie-um-repositório-e-garanta-acesso-fácil-a-seu-projeto---Escola-DNC
@@ -77,7 +77,7 @@ Na última etapa deste desafio, é hora de documentar o projeto. Isso inclui adi
 - Esse projeto simula uma lista de tarefas, os botões de adicionar, editar e apagar e os modais são meramente visuais, não executam funções
 
 ## Mudanças
-- mudança nas rota principal: conteúdo que era mostrado na rota "/" passa a ser mostrado na rota "/tarefas" agora
+- mudança na rota principal: as tarefas eram mostradas na rota "/" e agora passam a ser mostradas na rota "/tarefas"
 - adição de 2 novas rotas: "/" e "/oraganizacao"
 - alterações no layout: cores, tamanhos e formatos
 - adição de css responsivo para multiplatafomas
