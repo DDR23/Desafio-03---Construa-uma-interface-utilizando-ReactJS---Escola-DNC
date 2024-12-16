@@ -1,4 +1,5 @@
 ### IMPORTANTE
+Este é um projeto de todo list, é um projeto inicial, focado em aprender conceitos de react components
 Este repositório foi criado e desenvolvido para 2 desafios da Escola DNC, listados abaixo:
 
 - Desafio-03---Construa-uma-interface-utilizando-ReactJS---Escola-DNC
@@ -16,7 +17,7 @@ Este repositório foi criado e desenvolvido para 2 desafios da Escola DNC, lista
 
 🎯 Etapas de Desenvolvimento
 
-## ETAPA-01 - Anaalisando o projeto
+## ETAPA-01 - Analisando o projeto
 Analise o seu projeto, observe problemas no layout da aplicação. Melhore ele através de técnicas que visam garantir a usabilidade do seu produto! É necessário que ele seja simples de ser usado! Fique a vontade para adicionar novas funcionalidades e prototipar antes de sair codando!
 
 ## ETAPA-02 - Clone seu projeto e comece a melhorar ele
